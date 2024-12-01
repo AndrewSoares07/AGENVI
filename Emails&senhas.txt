@@ -1,0 +1,16 @@
+Email:joao@gmail.com
+senha: 123456
+
+Email:bia@gmail.com
+senha: 123456
+
+----------------------Empresas
+
+Email:lyly@gmail.com
+senha:123456
+
+Email:jotta@gmail.com
+senha: 123456
+
+Emai:rafa@gmail.com
+senha:123456
