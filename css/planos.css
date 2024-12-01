@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+
+
+
+h1{
+    color: var(--c08);
+    margin:90px 0px 0px 90px;
+}
+h2{
+    display: inline-block;
+    color: var(--c08);
+}
+
+
+.bot-1{
+    text-align: center;
+    color: var(--c01);
+    background-color: var(--c07);
+    width: 170px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px; 
+    float: right;
+    box-shadow: 2px 3px 5px var(--c03);
+    margin-right: 20px;
+    
+}
+
+.bot-1:hover{
+    background-color: var(--c08);
+
+    transition: 0.5s;
+}
+
+
+.paiplano{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.card-plano{
+    color: #7C5AFF;
+    border-radius: 37px;
+    padding: 25px;
+    background-color: #F7F7F7;
+    width: 360px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+transition: all 0.40s ease;
+    
+
+
+}
+.card-plano:hover{
+    box-shadow: 0px 6px 12px 0px rgb(88, 88, 88);
+    background-color: #f1f1f1;
+}
+.but-plan:hover{
+    background-color: var(--c09);
+    transition: 0.5s;
+}
+
+
+.cad1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.img-logo{
+    
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+.ppla{
+    margin-bottom: -10px;
+    font-size: 20px;
+    
+}
+.figure{
+    margin: auto;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-image: url(../img/Logo-agenvi.png);
+    transition: all 0.40s ease;
+   
+}
+.texto-plan{
+   color: #7C5AFF;
+   display: flex;
+   flex-direction: column;
+   transition: all 0.40s ease;
+}
+
+.tipe{
+    font-size: 30px;
+    font-weight: bold
+  
+}
+.mini-text{
+    text-align: left;
+    margin-top: -15px;
+    font-size: 16px;
+    color: var(--c08);
+}
+
+.preco-pan{
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    
+    
+  
+}
+.preco-pan > h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.preco-pan > p{
+   font-size: 17px;
+   display: block;
+   position: relative;
+   top: 15px;
+}
+.but-plan{
+    
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--c01);
+    background-color: var(--c07);
+    
+}
+.footercard{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtp{
+    font-size: 18px;
+    margin-left: 95px;
+    margin-top: 40px;
+    color: #616161;
+}
+
+
+
+@media (max-width:1200px){
+   
+
+}
+
+
+@media(max-width:600px){
+    h1,.txtp{
+        margin-left: 25px;
+        margin-top: 50px;
+        display: flex;
+       
+    }
+    .bot-1{
+        margin: 0 auto;
+      
+    }
+
+  
+    .paiplano{
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 0; 
+       flex-direction: column;    
+       align-items: center;
+    }
+    .card-plano{
+        margin-top: 30px;
+    } 
+}

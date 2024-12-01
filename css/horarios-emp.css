@@ -1,0 +1,96 @@
+body{
+    background-color:#E9E3FF;
+}
+.inp4 {
+    border: 1px solid var(--c08);
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  justify-items: baseline;
+  gap: 20px;
+  
+}
+.day-container {
+    padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   align-items: center;
+   margin-bottom: 10px;
+}
+h4 {
+    display: inline-block;
+}
+.hora {
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+}
+.horas {
+    
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 85%;
+}
+.button:hover {
+    background-color: var(--c08);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.divs{
+    display: flex;
+    flex-direction: row;
+
+   
+}
+.button {
+    margin: auto;
+    height: 40px;
+    width: 250px;
+    padding: 7px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: var(--c01);
+    background-color: var(--c07);
+    box-shadow: 2px 3px 5px var(--c03);
+}
+form{
+    align-items: baseline;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+   
+}
+.horas_func{
+    padding: 20px;
+    width: 460px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.imghora{
+
+    width: 500px;
+}
+
+.horaimg{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.p{
+    margin: auto;
+}

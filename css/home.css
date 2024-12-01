@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+    --c10:#bebebe;
+    
+}
+/* se precisar é um texto q digita sozinho class messege
+
+.message{
+    margin-left: 45%;
+    width: 620px;
+    animation: digitando 4s steps(30), blink .5s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+    transform:translate(-50%,-50%)
+}
+
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    40%{
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+} */
+
+
+
+.canto, .nav, .divlogo{
+    display: inline-block;
+  
+}
+.canto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../img/pedaco-header.png);
+    height: 70px;
+    width: 490px;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.img-calendario{
+    
+    display: inline-block;
+    
+    
+}
+.calendario{
+    width: 526px;
+}
+
+.frase1{
+   
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 80px;
+    color: var(--c05);
+}
+
+.main2{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--c02);
+    margin-top: 100px;
+    height: 560px;
+}
+
+.img-grande{
+   
+    margin-top: 150px;
+    width: 580px;
+    
+}
+
+.buttonP{
+    margin-top:-15px;
+    width: 180px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; 
+    float: right;
+    color: var(--c01);
+    background-color: var(--c07);
+    box-shadow: 2px 3px 5px var(--c10);
+    margin-right: 20px;
+}
+
+.buttonP:hover{
+    background-color: var(--c08);
+    transition: 0.5s;
+}
+
+.imggrande{
+    display: inline-block;
+}
+.text2{
+    padding: 20px;
+    display: block;
+    color: var(--c02);
+}
+.frase2{
+    width: 600px;
+    margin-top: 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    
+ 
+}
+.titulo{
+
+    margin-left: 40px;
+}
+h1,h2{
+    color: var(--c08);
+   
+}
+h2{
+    display:inline-block ;
+}
+.main3{
+    
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+
+}
+.img-planin{
+    width: 150px;
+}
+.img-planin2{
+    width: 115px;
+}
+.img-planin3{
+    width: 180px;
+}
+
+.planin{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+
+.planos{
+
+padding: 30px;
+}
+
+.imgplan{
+    margin-top: 230px;
+    width: 550px;
+    background-image: url(../img/onda.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+
+
+@media(max-width:1280px){
+
+    .img-calendario{
+        display:none;
+    }
+
+    .imgplan{
+        display: none;
+    }
+    
+
+    .frase1{
+        margin: 0;
+    }
+    
+    .frase2{
+        margin: 0;
+    }
+  
+    
+}
+
+
+@media(max-width:420px){
+    .buttonP{
+        margin-top: 25px;
+        margin: 0;
+    }
+
+    .titulo{
+        font-size: 23px;
+        margin: 0;
+    }
+    
+    .titulo2{
+        font-size: 23px;
+    }
+
+    .planin{
+        margin: 0;
+        margin-top: 50px;
+    
+    }
+    h2{
+      
+       font-size: 25px;
+    }
+   
+   
+}

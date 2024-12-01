@@ -1,0 +1,377 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023b0;
+    --c09:#471687;
+    --c10:#626262;
+}
+
+body{
+    background-image: url(../img/body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.maior{
+   
+    background-color: var(--c01);
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+ 
+
+    justify-content: space-between;
+}
+
+.parte-img{
+    background-color: var(--c07);
+    width: 25%;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.seta{
+    width: 50px;
+}
+
+.logocad{
+    width: 60px;
+    margin-right: 10px;
+}
+.logona{
+    color: var(--c01);
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.parte-cadastro{
+    width: 75%;
+    padding: 10px;
+
+}
+
+.header-cad{
+    width: 100%;
+    text-align: center;
+}
+
+.caixa{
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 500px;
+  
+}
+.caixa2{
+    border-radius: 5px;
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    margin-top: 10px;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+  
+}
+
+
+input{
+    width: 80%;
+    margin: 5px;
+}
+.lado{
+    display: flex;
+    gap: 20px;
+}
+.lado2{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+
+select{
+    border-radius: 5px;
+    width: 240px;
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+.footer-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.button{
+    background-color: var(--c07);
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: var(--c08);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.sec-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areatx{
+    width: 450px;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--c07);
+
+}
+.bemv{
+    font-size: 25px;
+    font-weight: 450;
+}
+.txt{
+    font-size: 18px;
+  width: 239px;
+  line-height: 35px;
+}
+h2{
+    color: var(--c08);
+}
+
+
+
+/* localização */
+
+.body-cadL{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caixaL{
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+  
+}
+.caixaL2{
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+  
+}
+.mapp{
+    background-image: url(../img/fundomapa.png);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.caixaL3{
+    border: 1px solid var(--c07);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 370px;
+  
+}
+.txtL{
+    font-size: 18px;
+  width: 140px;
+  line-height: 35px;
+}
+
+
+/* fotos */
+ .ladoF{
+    display: flex;
+    justify-content: center;
+ }
+ .txtF{
+    font-size: 18px;
+  width: 200px;
+  line-height: 35px;
+}
+
+/* 
+planos */
+
+
+
+.card-plano{
+    color: #7C5AFF;
+    border-radius: 37px;
+    padding: 25px;
+    background-color: #F7F7F7;
+    width: 320px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+box-shadow: 0px 6px 12px 0px rgba(153,153,153,1);
+transition: all 0.40s ease;
+    
+
+
+}
+.card-plano:hover{
+    border: 1px solid var(--c08);
+    background-color: #f1f1f1;
+}
+.but-plan:hover{
+    background-color: var(--c09);
+    transition: 0.5s;
+}
+
+
+.cad1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.img-logo{
+    
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+
+}
+.ppla{
+    margin-bottom: -10px;
+    font-size: 20px;
+    
+}
+.figure{
+    margin: auto;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-image: url(../img/Logo-agenvi.png);
+    transition: all 0.40s ease;
+   
+}
+.texto-plan{
+   color: #7C5AFF;
+   display: flex;
+   flex-direction: column;
+   transition: all 0.40s ease;
+}
+
+.tipe{
+    font-size: 30px;
+    font-weight: bold
+  
+}
+.mini-text{
+    text-align: left;
+    margin-top: -15px;
+    font-size: 16px;
+    color: var(--c08);
+}
+
+.preco-pan{
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    
+    
+  
+}
+.preco-pan > h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.preco-pan > p{
+   font-size: 17px;
+   display: block;
+   position: relative;
+   top: 15px;
+}
+.but-plan{
+    
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--c01);
+    background-color: var(--c07);
+    
+}
+.footercard{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.formapagamento{
+    margin-top: -40px;
+}
+
+.bigbig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}

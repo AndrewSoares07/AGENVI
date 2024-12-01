@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+:root{
+  
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+body{
+  background-color: #f4f7ff;
+}
+
+.pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.filho{
+    
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.lado{
+  margin-top: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-file-upload {
+    margin: auto;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 250px;
+}
+
+.custom-file-upload:hover {
+    background-color: #e0e0e0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+  .caixa{
+    width:240px;
+  }
+  
+  .pai{
+    display:flex;
+    flex-direction: row;
+
+  }
+  .bloco1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+    gap: 30px;
+  }
+  h3{text-align: center;}
+  
+  .div1{
+    display: inline-block;
+    margin: auto;
+  }
+  .batata2{
+    
+   margin:auto ;
+border-radius: 100%;
+width: 150px;
+height: 150px;
+
+}
+
+input{
+    padding: 7px;
+     border: 1px solid var(--c07);
+     outline: 0;
+     width: 320px;
+     height: 45px;
+     border-radius: 5px;
+   }
+
+
+.unf{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.lad1{
+    display: flex;
+}
+.bot2{
+    width: 100px;
+}
+
+
+.caixa{
+  width: 220px;
+}
+
+.home-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.home-content>div{
+  display: flex;
+  align-items: center;
+}
+
+.button:hover{
+  background-color: var(--c08);
+   transition: 0.5s;
+}
+
+
+.button{
+   width: 180px;
+  padding: 7px;
+  text-align: center;
+  border: none;
+  border-radius: 10px; 
+ display: block;
+margin: auto;
+  color: var(--c01);
+  background-color: var(--c07);
+  box-shadow: 2px 3px 5px var(--c10);
+
+}
+.input1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 190px;
+}
+.input2{
+  width: 390px;
+}

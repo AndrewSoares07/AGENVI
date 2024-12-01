@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --c01:#fff;
+  --c02:#E9E3FF; 
+  --c03:#999999;
+  --c04:#161616;
+  --c05:#000;
+  --c06:#B583F5;
+  --c07:#7C5AFF;
+  --c08:#6023B0;
+  --c09:#471687;
+  --c10:#bebebe;
+  
+}
+.nn{
+   margin-left: 40%;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #161616;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    padding: 5px;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7C5AFF !important;
+    color: white;
+}
+.mais{
+    padding: 15px;
+    width: 60px;
+}
+.butfunc{
+    padding: 10px;
+}
+/* .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} 
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+/* .pagination a.active {
+    background-color: #7C5AFF;
+    color: white;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+} */
+.page-item.active .page-link{
+  background-color: #7C5AFF;
+  border: none;
+  transition: 1s;
+}
+
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Fixa a barra na tela */
+    top: 70%; /* Fixa a barra 20px acima do rodapé */
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Centraliza a barra horizontalmente */
+   
+   
+   
+
+}
+
+.pagination a {
+    color: black;
+   
+    text-decoration: none;
+    transition: 1s;
+   
+    
+}
+
+.pagination a.active {
+    background-color: #7C5AFF;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color:var(--c07);
+    color: var(--c01);
+}
+.barrapes{
+    width: 380px;
+    font-size: 15px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid var(--c07);
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.butpes{
+    height: 40px;
+    border: none;
+    background-color: var(--c07);
+  
+    border-radius: 0px 10px 10px 0px;
+    color: var(--c01);
+    width: 50px;
+
+}
+
+.table td.servicos-cell {
+    max-width: 200px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* .container{
+    background-color: var(--c01);
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+} */
+
+

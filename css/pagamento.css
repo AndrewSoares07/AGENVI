@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+#dropdown{
+    margin-right: 250px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    width: 500px !important;
+    height: 70px;
+    background-color:var(--c07) ;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#dropdown > img{
+width: 60px;
+}
+
+.oi{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+      margin: 15px;
+    justify-content: space-around;
+ 
+}
+
+
+.certo{
+    gap: 10px;
+    justify-content: space-around;
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+}
+.certo > input{
+    width: 80px;
+}
+.certo > label{
+    font-size: 12px;
+    text-align: justify;
+}
+.certo > label > strong{
+    font-size: 12px;
+    color: var(--c07);
+}
+.show {
+    display: block !important; 
+}
+.separacao{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 30px;
+}
+.separacao > div > input{
+    width: 100%;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+}
+
+.Qr{
+   font-size: 16px;
+}
+.Qrcode{
+    width: 200px;
+    
+   
+}
+.caixa-qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+}
+.caixa-qr::after{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+}
+
+
+.ttmet{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.met{
+    background-color: var(--c02) !important;
+   
+    height: 2px;
+    width: 40%;
+    display: block;
+    margin: 10px;
+}
+.txttmet{
+    display: inline-block;
+    margin: 0;
+}
+
+.caixa-pg{
+   margin: 20px;
+    width: 450px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 10px;
+  
+    background-color: var(--c07);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.pagpt1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 140px !important;
+   
+
+}
+
+
+.edit{
+    color: #6994eb;
+}
+.min{
+    font-size: 9px;
+    position: relative;
+    top: 15px;
+}
+
+.tipoplan{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.ttpre{
+    
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.mes{
+    font-size: 12px;
+    font-weight: 450;
+}
+.vertical{
+    background-color: #ffffff;
+
+    height: 95%;
+    width: 3px;
+    margin: 0;
+    display: block !important;
+}
+
+.editar{
+    color: var(--c01);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.editar:hover{
+    text-decoration: underline;
+}
+
+.parte1pg{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.subim:hover{
+    background-color: var(--c08);
+     cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.subim{
+    margin: auto;
+
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; 
+    
+    color: var(--c01);
+    background-color: var(--c07);
+    box-shadow: 2px 3px 5px var(--c10);
+
+}
+
+.imgpay{
+    width: 300px;
+    height: 400px;
+}
+.papai{
+    display: flex;
+    justify-content: space-evenly;
+}
+label{
+    color: var(--c04);
+}
+
+
+/* Estilo do botão tipo rádio */
+.toggle-radio {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+.toggle-radio input[type="radio"] {
+    display: none;
+}
+
+.toggle-radio label {
+    padding: 10px 20px;
+    border: 2px solid var(--c07);
+    border-radius: 20px;
+    color:var(--c07);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-radio input[type="radio"]:checked + label {
+    background-color: var(--c07);
+    color: #fff;
+}
+.toggle-radio label:hover{
+    background-color: var(--c07);
+    color: #fff;
+
+
+}
+.formapagamento{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type="text"] {
+    padding: 10px;
+
+}
+
+.caixapg{
+    border: 1px solid var(--c07);
+    height: 40px;
+    padding: 10px;
+    width: 440px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+
+}
+.caixapg2{
+    border: 1px solid var(--c07);
+    height: 40px;
+    padding: 10px;
+    width: 210px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+
+}
+.ladopg{
+    display: flex;
+    flex-direction: row;
+    width: 460px;
+    gap: 20px;
+}
+
+.body-cad{
+    margin-bottom: 120px;
+}

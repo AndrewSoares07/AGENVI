@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+body{
+    background-image: url(../img/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023b0;
+    --c09:#471687;
+    --c10:#626262;
+}
+.logo{
+    width: 160px;
+}
+
+h2{
+    color: var(--c07);
+    margin: 20px;
+}
+
+.header-cad{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.seta{
+    margin: 20px;
+    width: 40px;
+}
+
+
+.button:hover{
+    background-color: var(--c08);
+     cursor: pointer;
+    transition: 0.5s;
+}
+
+.button{
+  
+    width: 180px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; 
+    margin: 20px;
+    color: var(--c01);
+    background-color: var(--c07);
+    box-shadow: 2px 3px 5px var(--c10);
+   
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border: 1px solid var(--c08);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+}
+
+input{
+    background-color: transparent;
+    width: 360px;
+    height: 35px;
+    cursor: pointer;
+}
+select{
+    padding: 5px;
+    height: 45px;
+    border: 1px solid var(--c08);
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.body-cad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.grande{
+    width: 700px;
+    padding: 10px;
+    display: flex;
+   justify-content: space-between;
+}
+
+
+.caixaS{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--c08);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+}
+.erro{
+    color: rgb(255, 56, 56);
+    text-align: center;
+}
+.caixaUF{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid var(--c08);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+}
+.menorUF{
+    width: 60%;
+    padding: 3px;
+}
+.menor{
+    width: 80%;
+    padding: 3px;
+}
+.menorE{
+    width: 90%;
+    padding: 3px;
+}
+.menorS{
+    width: 73%;
+    padding: 3px;
+}
+
+.parte1{
+    width: 300px;
+}
+.parte2{
+    width: 47%;
+}
+
+.lado{
+    display: flex;
+}
+.footer-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-cadastro{
+    border-radius: 0px 10px 10px 0px;
+   
+    width: 60%;
+    margin-left: 20px;
+  
+    
+}
+.imgcad{
+    border-radius: 10px 0px 0px 10px;
+    background-color: var(--c07);
+    width: 35%;
+    color: var(--c01);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.papai{
+    display: flex;
+  
+    width: 80%;
+    box-shadow: 7px 5px 10px 6px rgba(42, 13, 52, 0.594);
+    border-radius: 10px;
+    background-color: var(--c01);
+    
+}
+.logocad{
+    width: 70px;
+    margin-right: 10px;
+}
+.tudao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logona{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--c01);
+    margin-top: 150px;
+    text-align: center;
+}
+.txt{
+    font-size: 20px;
+}
+
+.bigbig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,79 @@
+
+
+  :root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+h3{
+  text-align: center;
+}
+  .salvarf{
+    
+    border: none;
+    background-color: var(--c08);
+    color: white;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .data{
+    width: 180px;
+  }
+  .email{
+    width: 390px;
+  }
+
+form{
+  width: 800px;
+  padding: 25px;
+  background-color: white;
+ border-radius: 20px;
+ box-shadow: 1px 3px 3px #c2c2c2;
+}
+
+input{
+ padding: 5px;
+  border: 1px solid var(--c07);
+  outline: 0;
+  width: 340px;
+  height: 40px;
+  border-radius: 5px;
+}
+.desc{
+  width: 470px;
+ 
+}
+.ladin{
+  width: 700px;
+  justify-content: space-between;
+  display: flex;
+}
+.dur{
+  width: 100px ;
+ 
+}
+.txs{
+  margin-top: 10px;
+}
+.erro{
+  text-align: center;
+  color: rgb(255, 14, 14);
+}
+.foi{
+  text-align: center;
+  color: rgb(47, 47, 255);
+}
+.bodysec{
+  display: flex;
+  justify-content: center;
+
+}

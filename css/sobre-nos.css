@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+ 
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+
+
+h1{
+    color: var(--c08);
+
+   
+}
+.txt1{
+    color: #474747;
+ 
+    font-size: 18px;
+}
+
+.fts>img{
+    width: 110px;
+    height: 280px;
+    margin: 5px;
+    border-radius: 90px;
+   
+}
+
+.fts2>img{
+    margin: 5px;
+    margin-top: 40px;
+    width: 100px;
+    height: 280px;
+    border-radius: 90px;
+   
+}
+.div1{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.div3{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    background-color: var(--c02);
+    justify-content: space-evenly;
+}
+
+.fotos1{
+    display: flex;
+}
+.fts3>img{
+    width: 450px;
+}
+.txtzin{
+    font-size: 15px;
+   margin-left: 12px;
+    width: 400px;
+    margin-top: -20px;
+}
+.logoava{
+    width: 90px;
+    border-radius: 100%;
+    height: 90px;
+    margin: 10px;
+}
+.ava1{
+    background-color: var(--c01);
+    border-radius: 10px;
+    padding: 15px;
+    height: 250px;
+    margin: 20px;
+    width: 450px;
+}
+.headerava{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.infose{
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+}
+@media(max-width:1200px) {
+  
+    
+}
+
+@media(max-width:600px) {
+     
+ .div3{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+ }
+
+ .div1{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+ .div2{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+
+
+}

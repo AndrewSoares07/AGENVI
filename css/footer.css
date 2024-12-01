@@ -1,0 +1,172 @@
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+    --c10:#bebebe;
+    
+}
+
+footer{
+    background-color: var(--c04);
+    color: var(--c01);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.infos{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+hr{
+    display: none;
+}
+.redess{
+    margin: 10px;
+    width: 35px;
+}
+.logo-footer{
+    width: 80px;
+}
+.footerzin{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.inforede{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.div-logof{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final{
+    text-align: center;
+}
+.div-redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+@media (max-width:1170px) and (min-width:620px) {
+
+    .footerzin{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    hr{
+        display: block;
+        width: 80%;
+        margin: auto;
+     }
+
+    .final{
+      
+        font-size: 12px;
+        text-align: center;   
+    }
+    .div-logof{
+        text-align: center;
+        margin: auto;
+     
+    }
+
+    .logo-footer{
+        width: 100px;
+        margin: 0;
+    }
+
+    .infos{
+        width: 50%;
+    }
+    .inforede{
+        width: 80%;
+        margin: auto;
+    }
+   
+    
+}
+
+
+
+ 
+ @media(max-width:620px) {
+ 
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerzin{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .div-logof{
+        text-align: center;
+        margin: auto;
+     
+    }
+
+    .logo-footer{
+        width: 90px;
+        margin: 0;
+    }
+
+    .div-info{
+        margin-top: 30px;
+    }
+
+    .infos{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .div-redes{
+        margin-top: 40px;
+        text-align: center;
+       
+    }
+    .inforede{
+        width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .final{
+       
+        font-size: 12px;
+        text-align: center;   
+    }
+    hr{
+        display: block;
+        width: 80%;
+        margin: auto;
+     }
+    
+
+} 

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+    --c10:#bebebe;
+    --c11:#626262;
+    
+}
+
+.fc .fc-toolbar-title {
+    padding: 5px;
+    width: 190px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 17px !important;
+    background-color:var(--c07);
+   
+    color: var(--c01);
+}
+
+#calendar {
+   width: 550px !important;
+   height: 400px;
+   border-radius: 20px;
+   padding: 10px;
+   border: none;
+   background-color: var(--c01);
+   border: 1px solid var(--c07);
+   box-shadow: 3px 3px 3px var(--c03);
+  
+}
+.event-cancelado, .event-andamento, .event-finalizado {
+    position: relative;
+    top: -20px;
+    left: 35px;
+    width: 30px;
+    font-size: 1px;
+    border-radius: 4px;
+    padding: 5px;
+    color: #000; 
+    text-align: center; 
+    font-weight: bold; 
+}
+.fc .fc-col-header-cell-cushion {
+
+padding: 2px 4px;
+color: black;
+text-decoration: none;
+}
+.fc .fc-daygrid-day-top {
+height: 30px;
+width: 20px; 
+margin: 20px;
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+text-decoration: none;
+}
+.fc .fc-scroller-liquid-absolute{
+    margin: auto;
+
+}
+
+.fc .fc-daygrid-day-number {
+color: black;
+text-decoration: none;
+}
+
+.fc .fc-toolbar {
+display: block;
+}
+
+.fc-today-button fc-button fc-button-primary{
+display: none;
+}
+
+.fc .fc-daygrid-event {
+
+    background-color: var(--c07);
+    border: 0;
+    font-size: 8px;
+    margin-top: -6px !important;
+    height:20px;
+    border-radius: 100%;
+    width: 20px;
+   
+}
+
+
+.fc-today-button{
+   display: none !important;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+    display: flex;
+    flex-direction: column;
+}
+.fc-toolbar-chunk{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+  
+}
+.fc-button-group{
+    margin-top: -35px !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    gap: 70% !important;
+    background-color: transparent !important;
+
+}
+.fc-prev-button{
+   
+    border: none !important;
+    background-color: transparent !important;
+ 
+
+}
+.fc-next-button{
+    background-color: transparent !important;
+    border: none !important;
+}
+.fc .fc-button .fc-icon {
+ color: var(--c09) !important;
+}
+
+
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    position: relative;
+    min-height: 0em;
+}
+
+.fc .fc-daygrid-day-frame {
+    position: relative;
+    height: 15px;
+}
+
+
+.fc .fc-scroller-liquid-absolute {
+   height: 350px;
+  
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start{
+    margin: 0px;
+    text-align: center !important;
+}
+
+.fc .fc-view-harness {
+    width: 400px;
+    margin: auto;
+}

@@ -1,0 +1,91 @@
+button{
+    border: none;
+}
+    .horario-item {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .horario-pai {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h3 {
+        text-align: center;
+        margin: 30px;
+    }
+    .card-button{
+   border: none;
+   background-color: none;
+   cursor: pointer;
+
+
+}
+.day-button.selected {
+    background-color: var(--c08); /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+}
+
+
+.horario-item.selected {
+    background-color: #e0e0e0; 
+}
+/* Destaque para o serviço selecionado */
+.card-bodyy.selecionado {
+    border: 2px solid #007bff; 
+    background-color: white;
+}
+
+.horario-item.selecionado {
+    background-color: #e0e0e0; /* Cor de fundo para o horário selecionado */
+}
+
+.periodo-button.selecionado {
+    background-color: #007bff; /* Cor de fundo azul para o período selecionado */
+    color: white; /* Cor do texto branca */
+}
+
+
+
+.modal-f{
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+margin-top: 30px;
+padding: 20px;
+border: 1px solid #888;
+width: 70%;
+}
+
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}

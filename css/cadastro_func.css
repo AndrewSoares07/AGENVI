@@ -1,0 +1,234 @@
+
+
+  :root{
+    --c01:#fff;
+    --c02:#E9E3FF; 
+    --c03:#999999;
+    --c04:#161616;
+    --c05:#000;
+    --c06:#B583F5;
+    --c07:#7C5AFF;
+    --c08:#6023B0;
+    --c09:#471687;
+}
+body{
+  background-color: #E4E9F7;
+}
+
+  h3{
+    text-align: center;
+    color: var(--c04) ;
+  }
+  .data{
+    width: 210px;
+  }
+  .email{
+    width: 390px;
+  }
+
+form{
+ 
+  padding: 10px;
+ display: flex;
+ width: 80%;
+ margin-bottom: 20px;
+ justify-content: center;
+ flex-direction: column;
+ background-color: white;
+ border-radius: 20px;
+ box-shadow: 1px 3px 3px #c2c2c2;
+}
+
+input{
+  margin-left: 10px;
+  border: none;
+  outline: 0;
+  width: 340px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+hr{
+    color: var(--c08);
+}
+.dive{
+  padding: 3px;
+  margin-right: 10px;
+  margin-top: 10px;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+    width: 430px;
+    height: 48px;
+}
+
+.div1{
+  padding: 3px;
+  margin-right: 10px;
+  margin-top: 10px;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+    width: 330px;
+    height: 48px;
+}
+.nome{
+  width: 290px;
+}
+.div2{
+  margin-top: 10px;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+    width: 240px;
+    padding: 3px;
+    height: 48px;
+}
+.div3{
+  padding: 3px;
+  margin-top: 10px;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+    width: 240px;
+    height: 48px;
+}
+
+.tel{
+    width: 200px;
+}
+.div4{
+  padding: 3px;
+  margin-top: 10px;
+    border: 1px solid var(--c07);
+    border-radius: 5px;
+    width: 280px;
+    height: 48px;
+}
+.cpf{
+    width: 200px;
+}
+.lado{
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.filho{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-check-label{
+  width: 300px;
+}
+.vertical{
+  border-left: 2px solid var(--c03);
+  height: 300px;
+  margin:0px 40px;
+}
+.tudo{
+margin-top:50px;
+align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover{
+    background-color: var(--c08);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.button{
+    margin: auto;
+    height: 40px;
+    width: 250px;
+    padding: 7px;
+    
+    text-align: center;
+    border: none;
+    border-radius: 10px; 
+
+    color: var(--c01);
+    background-color: var(--c07);
+    box-shadow: 2px 3px 5px var(--c03);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.img{
+  background-image: url(../img/semimagem.png);
+  background-size: cover;
+  
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+}
+.img:hover{
+  cursor: pointer;
+  border: 1px solid var(--c07);
+}
+
+#foto_func{
+ object-fit: cover;
+  opacity: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+h3{
+  color: #6023B0;
+}
+.img:hover{
+  cursor: pointer;
+}
+
+.inp4{
+  width: 100px;
+  border:1px solid var(--c08);
+  padding: 10px;
+}
+.chack{
+  width: 15px;
+}
+.hora{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.label-day{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: baseline;
+  align-items: center;
+}
+.day-container{
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.divserv{
+  padding: 10px;
+}
+
+.cadfpt1{
+display: flex;
+padding: 10px;
+justify-content: space-evenly;
+}
+.trab{
+  width: 35%;
+}
+
+.label{
+  margin-top: 10px;
+}
+.pft{
+  margin: 3;
+  text-align: center;
+}
